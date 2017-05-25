@@ -161,13 +161,17 @@ dividi-los no corpo do texto.}.
 % ---
 \section{Figuras}
 % ---
+\index{figuras}Figuras podem ser inseridas como ilustra a figura \ref{fig:09}. Ou também, podem ser criadas em LateX, como na figura \ref{fig_circulo}:
 
-\index{figuras}Figuras podem ser criadas diretamente em \LaTeX,
-como o exemplo da \autoref{fig_circulo}.
+\begin{figure}[htbp]
+		\centering
+		\includegraphics[scale=0.5]{figuras/fig09.pdf}
+		\caption{Vista típica do interior de um escritório telegráfico no século XIX. Fonte: \cite{lardner1867}.}
+		\label{fig:09}
+\end{figure}
 
-\begin{figure}[htb]
-	\caption{\label{fig_circulo}A delimitação do espaço}
-	\begin{center}
+\begin{figure}[htbp]
+		\begin{center}
 	    \setlength{\unitlength}{5cm}
 		\begin{picture}(1,1)
 		\put(0,0){\line(0,1){1}}
@@ -197,7 +201,8 @@ como o exemplo da \autoref{fig_circulo}.
 		\put(0,0){\line(6,5){1}}
 		\end{picture}
 	\end{center}
-	\legend{Fonte: os autores}
+	\caption{A delimitação do espaço}
+	\label{fig_circulo}
 \end{figure}
 
 Ou então figuras podem ser incorporadas de arquivos externos, como é o caso da
@@ -221,11 +226,10 @@ incorporadas com o software livre \textsf{Gimp}\index{Gimp}
 Photoshop\index{Adobe Photoshop}.
 
 \begin{figure}[htb]
-	\caption{\label{fig_grafico}Gráfico produzido em Excel e salvo como PDF}
 	\begin{center}
 	    \includegraphics[scale=0.5]{abntex2-modelo-img-grafico.pdf}
 	\end{center}
-	\legend{Fonte: \citeonline[p. 24]{araujo2012}}
+	\caption{\label{fig_grafico}Gráfico produzido em Excel e salvo como PDF. Fonte: \citeonline[p. 24]{araujo2012}.}
 \end{figure}
 
 % ---
@@ -241,16 +245,14 @@ com tamanhos e posições controladas. Veja o exemplo da
  \centering
   \begin{minipage}{0.4\textwidth}
     \centering
-    \caption{Imagem 1 da minipage} \label{fig_minipage_imagem1}
     \includegraphics[scale=0.9]{abntex2-modelo-img-marca.pdf}
-    \legend{Fonte: Produzido pelos autores}
+    \caption{Imagem 1 da minipage} \label{fig_minipage_imagem1}
   \end{minipage}
   \hfill
   \begin{minipage}{0.4\textwidth}
     \centering
-    \caption{Grafico 2 da minipage} \label{fig_minipage_grafico2}
     \includegraphics[scale=0.2]{abntex2-modelo-img-grafico.pdf}
-    \legend{Fonte: \citeonline[p. 24]{araujo2012}}
+    \caption{Grafico 2 da minipage. Fonte: \citeonline[p. 24]{araujo2012}.} \label{fig_minipage_grafico2}
   \end{minipage}
 \end{figure}
 
