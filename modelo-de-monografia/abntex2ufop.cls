@@ -1,5 +1,5 @@
 % INÍCIO DAS CUSTOMIZAÇÕES DO abnTeX2 (http://abnTeX2.googlecode.com) PARA A UNIVERSIDADE FEDERAL DE OURO PRETO
-%% abntex2ufop.cls, v 1.0 Danny Tonidandel
+%% abntex2ufop.cls, v 2.0 Danny Tonidandel
 %% Copyright 2012-2013 by abnTeX2 group at http://abntex2.googlecode.com/ 
 %%
 %% This work may be distributed and/or modified under the
@@ -28,7 +28,11 @@
 %% Altera disposição dos elementos na folha de aprovação
 %% Altera o conteudo dos capítulos para arquivos separados, na pasta ``capitulos''
 
-
+%% 2017.5.31 21h13 Danny Tonidandel
+%% Altera nome de arquivo de logomarca
+%% remove resumos em espanhol e italiano
+%% Insere exemplos para elaboração de tabelas
+%% Insere tabela de cronograma de atividades (para projeto de pesquisa)
 
 %% FIM DAS CUSTOMIZAÇÕES PARA A UNIVERSIDADE FEDERAL DE OURO PRETO
 
@@ -38,7 +42,7 @@
 % ------------------------------------------------------------------------
 % ------------------------------------------------------------------------
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{abntex2ufop}[2015/04/24 v1.0 abnTeX2ufop]
+\ProvidesClass{abntex2ufop}[2017/05/31 v2.0 abnTeX2ufop]
 
 %
 % Repassa todos os parametros a classe memoir, 
@@ -755,11 +759,11 @@
   	\tabletail{}
   	\tablelasttail{}
   	\begin{supertabular}{m{1.924cm}m{9.801001cm}m{2.922cm}}
-   \includegraphics[width=1.203cm,height=2.835cm]{logo-ufop.jpg}  &
+   \includegraphics[width=1.203cm,height=2.835cm]{logo-universidade.jpg}  &
   {\centering \imprimirinstituicao}
   ~
    &
-  \centering  \includegraphics[width=2.669cm,height=2.469cm]{logo-escola-de-minas.jpg} \\
+  \centering  \includegraphics[width=2.669cm,height=2.469cm]{logo-unidade.jpg} \\
   \end{supertabular}
   \end{flushleft}
     \centering
