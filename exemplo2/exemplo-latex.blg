@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: exemplo-latex.aux
+The style file: plain.bst
+Database file #1: referencias.bib
+Warning--empty journal in fulano2008
+Warning--there's a number but no volume in fulano2008
+Warning--empty year in fulano2008
+You've used 1 entry,
+            2118 wiz_defined-function locations,
+            501 strings with 4108 characters,
+and the built_in function-call counts, 244 in all, are:
+= -- 21
+> -- 7
+< -- 0
++ -- 3
+- -- 2
+* -- 17
+:= -- 49
+add.period$ -- 4
+call.type$ -- 1
+change.case$ -- 4
+chr.to.int$ -- 0
+cite$ -- 4
+duplicate$ -- 10
+empty$ -- 19
+format.name$ -- 2
+if$ -- 44
+int.to.chr$ -- 0
+int.to.str$ -- 1
+missing$ -- 1
+newline$ -- 9
+num.names$ -- 2
+pop$ -- 6
+preamble$ -- 1
+purify$ -- 3
+quote$ -- 0
+skip$ -- 5
+stack$ -- 0
+substring$ -- 5
+swap$ -- 0
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 4
+warning$ -- 3
+while$ -- 2
+width$ -- 2
+write$ -- 13
+(There were 3 warnings)

@@ -1,0 +1,27 @@
+\documentclass[a4paper,12pt]{article}% Seu arquivo fonte precisa conter
+\usepackage[brazil]{babel}           % estas quatro linhas
+\usepackage[utf8]{inputenc}          % alem do comando \end{document}
+\begin{document}
+
+\section{Uma visão inicial do LaTeX}  \label{sec:01} 
+Na equação \ref{eq:01} , pode-se observar que trata-se de uma reta.
+\begin{equation}
+f(\alpha) = \frac{1}{\sqrt{\pi}} \int \limits_{0}^{\infty} e^{-\alpha^{2}} d \alpha \,,
+\label{eq:01}
+\end{equation}
+
+
+
+\section{Outra visão do LaTeX} \label{sec:02}
+alô ainda mundo!
+\subsection{Uma subseção}
+\subsubsection{isto é demais}
+texto.
+
+Segundo informações disponíveis em \cite{fulano2008}, lá não se encontra uma equação do primeiro grau.
+
+\bibliographystyle{abntex2}
+\bibliography{referencias}
+
+\end{document}
+
