@@ -1,16 +1,46 @@
 \documentclass[a4paper,12pt]{article}% Seu arquivo fonte precisa conter
 \usepackage[brazil]{babel}           % estas quatro linhas
 \usepackage[utf8]{inputenc}          % alem do comando \end{document}
+\usepackage{graphicx}			% Inclusão de gráficos
+\usepackage{amsfonts}
+
 \begin{document}
 
 \section{Uma visão inicial do LaTeX}  \label{sec:01} 
-Na equação \ref{eq:01} , pode-se observar que trata-se de uma reta.
+Na equação \ref{eq:01} , pode-se observar que trata-se de uma reta. Na figura \ref{fig:01}, tem-se a imagem da gloriosa Escola de Minas.
 \begin{equation}
 f(\alpha) = \frac{1}{\sqrt{\pi}} \int \limits_{0}^{\infty} e^{-\alpha^{2}} d \alpha \,,
 \label{eq:01}
 \end{equation}
 
 
+
+
+
+\begin{figure}
+\centering	
+\includegraphics[scale=0.2]{logo-unidade.pdf}
+\caption{Viva a gloriosa Escola de Minas}
+\label{fig:01}
+\end{figure}
+
+
+segundo a tabela \ref{tabela:01}, tem-se que:
+
+
+\begin{table}[]
+	\centering
+	\caption{Esta é uma tabela legal}
+	\label{tabela:01}
+	\begin{tabular}{|l|c|c|c|c|}
+		\hline
+		\textbf{Fontes de variação} & \textbf{$\sum$ de quadrados}                                                                                        & \textbf{Graus de Lib} & \textbf{média quadrática}    & \textbf{$F_{0}$}                             \\ \hline
+		\textbf{regressão}          & $(S_{xy}/S_{xx})$                                                                                                   & $1$                   &                              &                                              \\ \hline
+		\textbf{Tratamentos}        & \begin{tabular}[c]{@{}c@{}}$SS'_{E}- SS_{E} - $\\ $(S_{xy})^{2}/S_{xx} - [E_{yy}-(E_{xy})^{2}/E_{xx}]$\end{tabular} & $a-1$                 & $\frac{SS'_{E}-SS_{E}}{a-1}$ & $\frac{1}{MS_{E}}\frac{SS'_{E}-SS_{E}}{a-1}$ \\ \hline
+		\textbf{Erro}               & $SS_{E} = E_{yy}-(E_{xy})^{2}/E_{xx}$                                                                               & $a(n-1)-1$            & $\frac{SS_{E}}{a(n-1)-1}$    &                                              \\ \hline
+		\textbf{Total}              & S\_\{yy\}                                                                                                           & $an-1$                &                              &                                              \\ \hline
+	\end{tabular}
+\end{table}
 
 \section{Outra visão do LaTeX} \label{sec:02}
 alô ainda mundo!
