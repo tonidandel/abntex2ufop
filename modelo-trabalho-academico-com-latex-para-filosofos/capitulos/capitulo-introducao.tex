@@ -1,0 +1,75 @@
+% ----------------------------------------------------------
+% Introdução (exemplo de capítulo sem numeração, mas presente no Sumário)
+% ----------------------------------------------------------
+\chapter[Introdução]{Introdução}
+%\addcontentsline{toc}{chapter}{Introdução}
+% ----------------------------------------------------------
+
+\section{Justificativas e Relev{\^a}ncia}
+%
+Este documento e seu código-fonte são exemplos de referência de uso da classe
+\textsf{abntex2} e do pacote \textsf{abntex2cite}. O documento 
+exemplifica a elaboração de trabalho acadêmico (tese, dissertação e outros do
+gênero) produzido conforme a ABNT NBR 14724:2011 \emph{Informação e documentação
+- Trabalhos acadêmicos - Apresentação}.
+A expressão ``Modelo Canônico'' é utilizada para indicar que \abnTeX\ não é
+modelo específico de nenhuma universidade ou instituição, mas que implementa tão
+somente os requisitos das normas da ABNT. Uma lista completa das normas
+observadas pelo abntex.\footcite{boyle1772}
+
+Sinta-se convidado a participar do projeto \abnTeX!\footcite{herao}
+%
+\section{Metodologia}
+
+\lipsum[1]
+
+\section{Objetivos}
+
+\lipsum[7]
+
+\lipsum[8]
+
+\section{Organiza{\c c}{\~a}o e estrutura}
+
+\lipsum*[9-11]
+
+\begin{itemize}
+\item item;
+\item item;
+\item item;
+\item item;
+\end{itemize}
+
+\section{Cronograma}
+
+Esta seção deve constar somente no projeto de monografia. Não deve aparecer na versão final do texto.
+
+% Please add the following required packages to your document preamble:
+% \usepackage[table,xcdraw]{xcolor}
+% If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
+
+% Please add the following required packages to your document preamble:
+% \usepackage[table,xcdraw]{xcolor}
+% If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
+
+Um exemplo de cronograma das atividades é proposto na tabela \ref{tab:cronograma}.\footnote{Voc{\^e} pode elaborar também tabelas online, gerando o código em \LaTeX. Após isso, basta copiar e colar o código aqui. Um exemplo de site é o ``Table Generator''\url{http://www.tablesgenerator.com/}.}
+  
+\begin{table}[h]
+\ABNTEXfontereduzida
+\caption[Cronograma das atividades]{Cronograma das atividades de elaboração da monografia.}
+\label{tab:cronograma}
+\begin{minipage}{0.3\textwidth}
+    \centering
+\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|}
+\hline
+                             & \multicolumn{16}{c|}{Meses}                                                   \\ \hline
+Atividades (Etapas)          & 01 & 02 & 03 & 04 & 05 & 06 & 07 & 08 & 09 & 10 & 11 & 12 & 13 & 14 & 15 & 16 \\ \hline
+1. Estudo da teoria          & X  & X  & X  & X  & X  &    &    &    &    &    &    &    &    &    &    &    \\ \hline
+2. Atualização bibliográfica & X  & X  & X  & X  & X  & X  & X  &    &    &    &    &    &    &    &    &    \\ \hline
+3. Seleção de Material       & X  & X  & X  & X  & X  & X  & X  & X  & X  &    &    &    &    &    &    &    \\ \hline
+4. Elaboração da monografia  &    &    &    &    & X  & X  & X  & X  & X  & X  & X  & X  & X  & X  & X  &    \\ \hline
+5. Elaboração de Artigo      &    &    &    &    &    &    &    &    & X  & X  & X  & X  & X  & X  & X  &    \\ \hline
+6. Defesa da monografia      &    &    &    &    &    &    &    &    &    &    &    &    &    &    &    & X  \\ \hline
+\end{tabular}
+  \end{minipage}
+\end{table}
