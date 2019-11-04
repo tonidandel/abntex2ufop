@@ -1,0 +1,15 @@
+[0] Config.pm:302> INFO - This is Biber 2.9
+[0] Config.pm:305> INFO - Logfile is 'ufop-modelo-trabalho-academico-ichs.blg'
+[22] biber:313> INFO - === qui out 31, 2019, 16:14:18
+[40] Biber.pm:371> INFO - Reading 'ufop-modelo-trabalho-academico-ichs.bcf'
+[94] Biber.pm:857> INFO - Found 3 citekeys in bib section 0
+[189] Biber.pm:3981> INFO - Processing section 0
+[212] Biber.pm:4154> INFO - Looking for bibtex format file 'referencias-teste.bib' for section 0
+[214] bibtex.pm:1468> INFO - LaTeX decoding ...
+[225] bibtex.pm:1294> INFO - Found BibTeX data source 'referencias-teste.bib'
+[342] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[342] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[342] Biber.pm:3809> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'pt-BR'
+[342] Biber.pm:3815> INFO - No sort tailoring available for locale 'pt-BR'
+[353] bbl.pm:617> INFO - Writing 'ufop-modelo-trabalho-academico-ichs.bbl' with encoding 'UTF-8'
+[356] bbl.pm:720> INFO - Output to ufop-modelo-trabalho-academico-ichs.bbl
